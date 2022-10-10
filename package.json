@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/App.js",
   "scripts": {
-    "test": "test"
+    "test": "NODE_ENV=test npx jest --verbose --runInBand --detectOpenHandles",
+    "dev": "nodemon ./src/App.ts",
+    "start": "ts-node ./src/App.ts"
   },
   "keywords": [
     "ts",
