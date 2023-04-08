@@ -15,7 +15,6 @@
   "author": "CameronHattendorf",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.7.0"
   },
   "devDependencies": {
     "@types/jest": "^27.5.1",
@@ -23,9 +22,9 @@
     "jest": "^28.1.0",
     "jest-environment-node": "^28.1.0",
     "nodemon": "^2.0.16",
-    "supertest": "^6.2.3",
     "ts-jest": "^28.0.2",
     "ts-node": "^10.9.1",
-    "tsx": "^3.10.1"
+    "tsx": "^3.10.1",    
+    "dotenv": "^16.0.3"
   }
 }
